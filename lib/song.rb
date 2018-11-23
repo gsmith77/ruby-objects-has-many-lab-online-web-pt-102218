@@ -12,7 +12,7 @@ class Song
   end
   
   def self.all
-    @@all
+    @@all.uniq
   end
   
   def artist_name
