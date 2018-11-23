@@ -22,5 +22,9 @@ class Artist
     creation.artist = self
   end
   
+  def song_count
+    Song.all.length
+  end
+  
   
 end
