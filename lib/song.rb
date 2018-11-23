@@ -2,5 +2,6 @@ class Song
   
   attr_accessor
   
-  def initialize(name)
+  def initialize
+  end
 end
